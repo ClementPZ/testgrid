@@ -1,0 +1,19 @@
+body {
+  margin: 0 auto;
+}
+.container {
+  height: 100vh;
+  padding: 16px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+.box {
+  border: 1px solid grey;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
